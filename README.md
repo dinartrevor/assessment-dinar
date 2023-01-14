@@ -30,7 +30,7 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
-Craete Folder Storage
+Create Folder Storage
 
     php artisan storage:link
 
@@ -47,6 +47,7 @@ You can now access the server at http://localhost:8000
     composer install
     cp .env.example .env
     php artisan key:generate
+    php artisan storage:link
     
 **Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
 
@@ -54,8 +55,6 @@ You can now access the server at http://localhost:8000
     php artisan serve
 
 ## Database seeding
-
-**Populate the database with seed data with relationships which includes users, articles, comments, tags, favorites and follows. This can help you to quickly start testing the api or couple a frontend and start using it with ready content.**
 
 Open the DatabaseSeeder and set the property values as per your requirement
 
