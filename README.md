@@ -10,7 +10,7 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone git@github.com:gothinkster/assessment-dinar.git
+    git clone https://github.com/dinartrevor/assessment-dinar.git
 
 Switch to the repo folder
 
@@ -44,7 +44,7 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:gothinkster/assessment-dinar.git
+    git clone https://github.com/dinartrevor/assessment-dinar.git
     cd assessment-dinar
     composer install
     cp .env.example .env
